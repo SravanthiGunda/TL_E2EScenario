@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-30T09:44:13 CDT" name="Suite" finished-at="2024-08-30T09:44:13 CDT" duration-ms="19">
+  <suite started-at="2024-08-30T12:45:56 CDT" name="Suite" finished-at="2024-08-30T12:45:57 CDT" duration-ms="1403">
     <groups>
     </groups>
-    <test started-at="2024-08-30T09:44:13 CDT" name="Test" finished-at="2024-08-30T09:44:13 CDT" duration-ms="19">
+    <test started-at="2024-08-30T12:45:56 CDT" name="Test" finished-at="2024-08-30T12:45:57 CDT" duration-ms="1403">
+      <class name="E2EScenario.E2EScenario.AmazonTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:E2EScenario.E2EScenario.AmazonTest@9635fa]" started-at="2024-08-30T12:45:56 CDT" name="setup" finished-at="2024-08-30T12:45:57 CDT" duration-ms="1027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Scenario1()[pri:0, instance:E2EScenario.E2EScenario.AmazonTest@9635fa]" started-at="2024-08-30T12:45:57 CDT" name="Scenario1" finished-at="2024-08-30T12:45:57 CDT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EScenario.E2EScenario.AmazonTest@9635fa]" started-at="2024-08-30T12:45:57 CDT" name="teardown" finished-at="2024-08-30T12:45:57 CDT" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2EScenario.E2EScenario.AmazonTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
