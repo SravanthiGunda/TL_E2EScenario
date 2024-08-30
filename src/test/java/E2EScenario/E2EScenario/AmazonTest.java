@@ -11,7 +11,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -19,12 +18,10 @@ public class AmazonTest {
 	
 	WebDriver driver = new ChromeDriver();
 	
-	
-	@Parameters({"URL"})	
 	@BeforeMethod
-	public void setup(String URL) {
+	public void setup() {
 				
-		driver.get(URL);
+		driver.get("https://www.lambdatest.com/selenium-playground/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 	

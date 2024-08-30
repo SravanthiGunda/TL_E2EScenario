@@ -2,69 +2,48 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-30T14:31:21 CDT" name="Suite" finished-at="2024-08-30T14:31:26 CDT" duration-ms="5618">
+  <suite started-at="2024-08-30T15:16:44 CDT" name="Suite" finished-at="2024-08-30T15:16:50 CDT" duration-ms="5848">
     <groups>
     </groups>
-    <test started-at="2024-08-30T14:31:21 CDT" name="Test" finished-at="2024-08-30T14:31:26 CDT" duration-ms="5618">
+    <test started-at="2024-08-30T15:16:44 CDT" name="Test" finished-at="2024-08-30T15:16:50 CDT" duration-ms="5848">
       <class name="E2EScenario.E2EScenario.TestScenario3">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:E2EScenario.E2EScenario.TestScenario3@5910de75]" started-at="2024-08-30T14:31:23 CDT" name="setup" finished-at="2024-08-30T14:31:24 CDT" duration-ms="753" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup()[pri:0, instance:E2EScenario.E2EScenario.TestScenario3@7889a1ac]" started-at="2024-08-30T15:16:48 CDT" name="setup" finished-at="2024-08-30T15:16:49 CDT" duration-ms="591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Scenario3()[pri:0, instance:E2EScenario.E2EScenario.TestScenario3@5910de75]" started-at="2024-08-30T14:31:24 CDT" name="Scenario3" finished-at="2024-08-30T14:31:26 CDT" duration-ms="1650" status="PASS">
+        <test-method signature="Scenario3()[pri:0, instance:E2EScenario.E2EScenario.TestScenario3@7889a1ac]" started-at="2024-08-30T15:16:49 CDT" name="Scenario3" finished-at="2024-08-30T15:16:49 CDT" duration-ms="466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Scenario3 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EScenario.E2EScenario.TestScenario3@5910de75]" started-at="2024-08-30T14:31:26 CDT" name="teardown" finished-at="2024-08-30T14:31:26 CDT" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EScenario.E2EScenario.TestScenario3@7889a1ac]" started-at="2024-08-30T15:16:49 CDT" name="teardown" finished-at="2024-08-30T15:16:50 CDT" duration-ms="815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- E2EScenario.E2EScenario.TestScenario3 -->
       <class name="E2EScenario.E2EScenario.TestScenario2">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:E2EScenario.E2EScenario.TestScenario2@26be6ca7]" started-at="2024-08-30T14:31:22 CDT" name="setup" finished-at="2024-08-30T14:31:23 CDT" duration-ms="603" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup()[pri:0, instance:E2EScenario.E2EScenario.TestScenario2@22c86919]" started-at="2024-08-30T15:16:47 CDT" name="setup" finished-at="2024-08-30T15:16:47 CDT" duration-ms="520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Scenario2()[pri:0, instance:E2EScenario.E2EScenario.TestScenario2@26be6ca7]" started-at="2024-08-30T14:31:23 CDT" name="Scenario2" finished-at="2024-08-30T14:31:23 CDT" duration-ms="676" status="PASS">
+        <test-method signature="Scenario2()[pri:0, instance:E2EScenario.E2EScenario.TestScenario2@22c86919]" started-at="2024-08-30T15:16:47 CDT" name="Scenario2" finished-at="2024-08-30T15:16:48 CDT" duration-ms="576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Scenario2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EScenario.E2EScenario.TestScenario2@26be6ca7]" started-at="2024-08-30T14:31:23 CDT" name="teardown" finished-at="2024-08-30T14:31:23 CDT" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EScenario.E2EScenario.TestScenario2@22c86919]" started-at="2024-08-30T15:16:48 CDT" name="teardown" finished-at="2024-08-30T15:16:48 CDT" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- E2EScenario.E2EScenario.TestScenario2 -->
       <class name="E2EScenario.E2EScenario.AmazonTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:E2EScenario.E2EScenario.AmazonTest@1c98290c]" started-at="2024-08-30T14:31:21 CDT" name="setup" finished-at="2024-08-30T14:31:22 CDT" duration-ms="953" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup()[pri:0, instance:E2EScenario.E2EScenario.AmazonTest@9635fa]" started-at="2024-08-30T15:16:44 CDT" name="setup" finished-at="2024-08-30T15:16:45 CDT" duration-ms="943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Scenario1()[pri:0, instance:E2EScenario.E2EScenario.AmazonTest@1c98290c]" started-at="2024-08-30T14:31:22 CDT" name="Scenario1" finished-at="2024-08-30T14:31:22 CDT" duration-ms="88" status="PASS">
+        <test-method signature="Scenario1()[pri:0, instance:E2EScenario.E2EScenario.AmazonTest@9635fa]" started-at="2024-08-30T15:16:45 CDT" name="Scenario1" finished-at="2024-08-30T15:16:45 CDT" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Scenario1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EScenario.E2EScenario.AmazonTest@1c98290c]" started-at="2024-08-30T14:31:22 CDT" name="teardown" finished-at="2024-08-30T14:31:22 CDT" duration-ms="341" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2EScenario.E2EScenario.AmazonTest@9635fa]" started-at="2024-08-30T15:16:45 CDT" name="teardown" finished-at="2024-08-30T15:16:47 CDT" duration-ms="1274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
