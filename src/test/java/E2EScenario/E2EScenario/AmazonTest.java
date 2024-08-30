@@ -17,12 +17,7 @@ import org.testng.asserts.SoftAssert;
 public class AmazonTest {
 	
 	WebDriver driver = new ChromeDriver();
-	
-<<<<<<< HEAD
-=======
-	
-		
->>>>>>> 95547ab7480a34fe892d3504cfba400a6b5b7c7f
+
 	@BeforeMethod
 	public void setup() {
 				
