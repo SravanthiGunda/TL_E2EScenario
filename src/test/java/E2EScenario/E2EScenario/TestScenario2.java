@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,11 +12,10 @@ public class TestScenario2 {
 
 	
 		WebDriver driver = new ChromeDriver();
-		@Parameters({"URL"})	
 		@BeforeMethod
-		public void setup(String URL) {
+		public void setup() {
 					
-			driver.get(URL);
+			driver.get("https://www.lambdatest.com/selenium-playground/");
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
 		
